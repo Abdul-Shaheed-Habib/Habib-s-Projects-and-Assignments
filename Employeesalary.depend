@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1603969956 source:c:\users\habib\documents\c progrogrammingexercises\employeesalary\main.c
+	<stdio.h>
+	<stdlib.h>
+
