@@ -3,30 +3,33 @@
 
 int main()
 {
-    char emp[10];
-    char gender;
-    long salary;
+    char g;
 
-    printf("\n Please input your name");
-    gets(emp);
+    struct student
+    {
+      char name[20];
+      char sub[10];
+      int marks;
 
-    printf("Are u a male? (Yes/No):");
-    gender=getche();
+    };
+    struct student stud;
 
-    printf("Are a female? (Yes/No):");
-    gender=getche();
+    printf("\nEnter student name:");
+    scanf("%s", stud.name);
+    printf("\nEnter Subject:");
+    scanf("%s", stud.sub);
+    printf("\nEnter your grade:");
+    scanf("%d", stud.marks);
 
-    printf("\n Input your salary please:");
-    scanf("%ld",&salary);
-
-    if(gender !='y')
-        printf("%s is a male", emp);
+    if(stud.marks >=80)
+        g='A';
+    else if(stud.marks >=60)
+        g='B';
+    else if(stud.marks>=40)
+        g='C';
     else
-        printf("%s is a male", emp);
+        g='D';
+           printf("\n %s grade for %s is : %c",stud.name,stud.sub,g);
 
-    if((salary>45000) && (salary<75000))
-     printf("and has a salary between 45000 and 75000GHC");
-    else if((salary <45000 || salary>75000))
-        printf("and has a salary less than 45000 or greater than 75000GHC");
     return 0;
 }
