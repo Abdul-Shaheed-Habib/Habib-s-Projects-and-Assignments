@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Save The World | Landing Page Design</title>
+<link rel="stylesheet" type="text/css" href="Bawa.css">
+</head>
+<body>
+      <section>
+           <header>
+               <a href="#" class="logo">نبذة عنا</a>
+               <div class="toggle"></div>
+           </header>
+           <img src="pic17.jpg" class="bg">
+           <img src="Quran.png" class="pet">
+           <div class="content">
+              <h2>About<br><span>Jiddah</span></h2>
+              <h3>
+                 Welcome to Jiddah Islamic School, a vibrant Islamic learning community dedicated to nurturing the minds, 
+                 hearts, and souls of our students. Founded in 2007,06, our school is committed to providing a 
+                 comprehensive education that integrates academic excellence with Islamic values and principles.
+
+            </h3>
+                 &copy; 2024 Habib.com All Rights Reserved.<br>
+              
+              <a href="J.Contact.html">Contact Us</a>
+           </div>
+          
+           <div  class="textBlocks">
+               <div class="block">
+                   <h3>IN COLLABORATION WITH:</h3>
+                   <p>
+                   AFRICAN CONTINENT COMITTEE OF REVIVAL OF ISLAMIC HERITAGE SOCIETY
+                   </p>
+                 </div>
+                 <div class="block">
+                    <h3>LOCATION:</h3>
+                    <p>
+                        JEDDAH-AYIKAI DOBLO-GREATER ACCRA-GHANA
+                    </p>
+                  </div>
+               </div>
+      </section>
+      <script type="text/javascript">
+      document.addEventListener("mousemove",function(e){
+          const bg = document.querySelector('.bg');
+          const pet = document.querySelector('.pet');
+          const content = document.querySelector('.content');
+          
+          bg.style.width = 100 + e.pageX/100 + '%';
+          bg.style.height = 100 + e.pageX/100 + '%';
+
+          pet.style.right =100 + e.pageX/2 + 'px';
+
+          content.style.left = 100 + e.pageX/2.5 + 'px';
+      })
+    </script>
+</body>
+</html>

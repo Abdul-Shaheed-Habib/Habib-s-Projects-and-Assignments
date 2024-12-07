@@ -1,0 +1,108 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    background-image: url(can.jpg);
+    width: 100%;
+    height: 100%;
+    background:;
+}
+    
+.menu ul{
+    display: inline-flex;
+    margin: 50px;
+}
+.menu ul li{
+    list-style:NONE;
+    margin: 0 20px;
+    color: #d3cf06;
+    cursor: pointer;
+}
+.logo img{
+    width: 80px; 
+    margin-top: -17px;
+    margin-right: 50px;
+    
+}
+.active{
+    color: #19dafa !important;
+    
+    
+}
+.signup-btn{
+    top: 50px;
+    right: 100px;
+    position: absolute;
+    text-decoration: none;
+    color: mediumvioletred;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    background-image: linear-gradient(#42455a,#42455a),
+    radial-gradient(circle at top left,#fd00da,#19d7f8);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+}
+.signup-btn span{
+    display: block;
+    padding: 9px 24px;
+}
+.banner{
+    width: 70%;
+    height: 70%;
+    top: 25%;
+    left: 100;
+    position: absolute;
+    color: Pink;
+}
+
+
+.app-text{
+    width: 50%;
+    float: left;
+}
+.app-text h1{
+  font-size: 43px;
+  width: 640px;
+  position: relative;
+  margin-left: 40px;
+}
+.app-text p{ 
+    width: 650px;
+    font-size: 17px;
+    margin: 30px 0 30px 40px;
+    line-height: 25px;
+    color: floralwhite;
+}
+
+
+
+.center .buttons{
+    margin: 35px 280px;
+  }
+    .buttons button{
+      height: 50px;
+      width: 150px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #ffb3b3;
+      background-image: linear-gradient(#0e1c88,#050505),
+      radial-gradient(circle at top left,#fd00da,#d82360);
+      outline: none;
+      cursor: pointer;
+      border-radius: 25px;
+      transition: .5s;
+}   
+  .buttons .btn{
+      margin-left: 30px;
+}
+ .button button:hover{
+     background: #cc0000;
+}
+
+
+
